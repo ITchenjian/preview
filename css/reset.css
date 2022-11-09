@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	color:#656565;
+	font-family:"Microsoft Yahei";
+	font-size: 0.14rem;
+}
+ul,li{
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-style:normal;
+	font-size: 0.14rem;
+	font-weight: normal;
+}
+s,i,strong,em{
+	font-style:normal;
+}
+input,img{
+	outline: none;
+	border:0;
+}
+img{
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+a{
+	text-decoration:none;
+	color:#656565;
+}

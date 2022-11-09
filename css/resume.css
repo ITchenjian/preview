@@ -1,0 +1,445 @@
+.wrapper{
+	max-width:750px;
+	height: 100vh;
+	width: 100%;
+	margin:0 auto;
+	position:relative;
+
+	
+}
+
+.wrapper .audio{
+	width:1rem;
+	height:1rem;
+	border-radius:50%;
+	position: absolute;
+	top:.3rem;
+	right:.3rem;
+	z-index: 6;
+}
+
+.wrapper .active{
+	animation: rotate 4s infinite linear;
+}
+.wrapper .audio .iconfont{
+	font-size:1rem;
+	color:#fff;
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+@keyframes rotate{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
+
+.swiper-container {
+	width: 100%;
+    height: 100%;
+	background:#fff;
+
+}
+.swiper-slide{
+	width:100%;
+	height:100%;
+	background: url(../images/bg.png) no-repeat 0 0;
+	background-size:cover;
+	overflow: hidden;
+}
+
+.lunbo ul{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin:0 auto;
+}
+.lunbo ul li{
+	position: absolute;
+}
+.lunbo ul .cir{
+	width: 5rem;
+	height: 5rem;
+	top:25.2%;
+	left:50%;
+	margin-left: -2.5rem;
+}
+.lunbo ul .write{
+	top:28%;
+	left:50%;
+	margin-left:-1.5rem;
+
+}
+.lunbo ul .write h1{
+	color: rgb(18, 166, 156);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.lunbo ul .xline{
+	left:60%;
+	top:-10%;
+	width:2px;
+	height: 50%;
+	transform: rotate(50deg);
+	background: rgb(18, 166, 156);
+}
+.lunbo ul .xline1{
+	left:30%;
+	top:47.3%;
+	width:2px;
+	height: 60%;
+	transform: rotate(50deg);
+	background: rgb(18, 166, 156);
+}
+
+
+.lunbo .ul2 .line{
+	width: 1rem;
+	height:90%;
+	left:1.3rem;
+	top:5%;
+} 
+.lunbo .ul2 .yue{
+	width: 2.5rem;
+	height:2.65rem;
+	top:10%;
+	left:1.65rem;
+}
+
+.lunbo .ul2 .scir1{
+	width: 1.2rem;
+	height: 1.2rem;
+	top:35.8%;
+	left:.6rem;
+}
+.lunbo .ul2 .scir2{
+	top:48.8%;
+	left:.6rem;
+}
+.lunbo .ul2 .scir3{
+	top:61.8%;
+	left:.6rem;
+}
+.lunbo .ul2 .scir4{
+	top:74.8%;
+	left:.6rem;
+}
+
+.lunbo .ul2 .rect{
+	width: 5.3rem;
+	height: 1.25rem;
+	top:35.5%;
+	left:1.6rem;
+}
+.lunbo .ul2 .rect2{
+	
+	top:48.5%;
+	left:1.6rem;
+}
+.lunbo .ul2 .rect3{
+	
+	top:61.5%;
+	left:1.6rem;
+}
+.lunbo .ul2 .rect4{
+	top:74.5%;
+	left:1.6rem;
+}
+.lunbo .ul2 .wri{
+	top:16%;
+	left:2.2rem;
+}
+.lunbo .ul2 .wri span:first-child{
+	color: rgb(18, 166, 156);
+    font-weight: bold;
+	font-size: .75rem;
+}
+.lunbo .ul2 .wri span:last-child{
+	color: rgb(18, 166, 156);
+    font-weight: bold;
+	font-size: .4rem;
+}
+
+.lunbo .ul2 .data{
+	color: rgb(18, 166, 156);
+    font-weight: bold;
+    font-size: .4rem;
+    top:38.25%;
+    left:1.08rem;
+}
+.lunbo .ul2 .data2{
+	top:51.25%;
+    left:1.08rem;
+}
+.lunbo .ul2 .data3{
+	top:64.25%;
+    left:1.08rem;
+}
+.lunbo .ul2 .data4{
+	top:77.25%;
+    left:1.08rem;
+}
+
+.lunbo .ul2 .content{
+	top:37.8%;
+	left:3.75rem;
+	color:#fff;
+	font-weight: bold;
+	font-size: .46rem;
+}
+.lunbo .ul2 .content2{
+	top:50.8%;
+	left:3.75rem;
+}
+.lunbo .ul2 .content3{
+	top:63.8%;
+	left:3.75rem;
+}
+.lunbo .ul2 .content4{
+	top:76.8%;
+	left:3.75rem;
+}
+
+
+.lunbo .ul3 .tcir1{
+	top:5%;
+	left:-.55rem;
+	width: 1.55rem;
+	height:1.55rem;
+}
+.lunbo .ul3 .tcir2{
+	top:16.8%;
+	right:-.62rem;
+	width: 1.2rem;
+	height:1.2rem;
+}
+.lunbo .ul3 .tcir3{
+	top:1%;
+	right:-.82rem;
+	width: 2.14rem;
+	height:2.19rem;
+}
+.lunbo .ul3 .bcir1{
+	bottom:1.5%;
+	left:-.62rem;
+	width: 1.4rem;
+	height:1.4rem;
+}
+.lunbo .ul3 .bcir5{
+	bottom:3.4%;
+	right:-.45rem;
+	width: 1.3rem;
+	height:1.3rem;
+}
+.lunbo .ul3 .bcir2{
+	bottom:1.8%;
+	left:.76rem;
+	width: 1.7rem;
+	height:1.7rem;
+}
+.lunbo .ul3 .bcir4{
+	bottom:1.8%;
+	right:.78rem;
+	width: 1.8rem;
+	height:1.8rem;
+}
+.lunbo .ul3 .bcir3{
+	bottom:-7.8%;
+	left:2.2rem;
+	width: 2.8rem;
+	height:2.8rem;
+}
+
+.lunbo .ul3 .uline{
+	top:25%;
+	left:9%;
+	width: 82%;
+	height:.02rem;
+	background:rgb(18, 166, 156);
+}
+.lunbo .ul3 .uline2{
+	top:36%;
+}
+.lunbo .ul3 .uline3{
+	top:47.02%;
+}
+.lunbo .ul3 .uline4{
+	top:58%;
+}
+.lunbo .ul3 .uline5{
+	top:69%;
+}
+.lunbo .ul3 .uline6{
+	top:80%;
+}
+.lunbo .ul3 .title{
+	top:11%;
+	left:25%;
+	width:50%;
+	text-align:center;
+	font-weight: bold;
+    color: rgb(18, 166, 156);
+    font-size: .75rem;
+}
+.lunbo .ul3 .word{
+	top:18.9%;
+	left:25%;
+	width:50%;
+	text-align:center;
+    color: rgb(18, 166, 156);
+    font-size: .37rem;
+}
+
+.lunbo .ul3 .icon{
+	left:.8rem;
+	top:26.6%;
+	width: 1.05rem;
+	height: 1.05rem;
+}
+.lunbo .ul3 .icon2{
+	top:37.6%;
+}
+.lunbo .ul3 .icon3{
+	top:48.6%;
+}
+.lunbo .ul3 .icon4{
+	top:59.6%;
+}
+.lunbo .ul3 .icon5{
+	top:70.6%;
+}
+
+
+.lunbo .ul3 .tag{
+	left:2.2rem;
+	top:27.8%;
+	font-size: .46rem;
+    color: rgb(18, 166, 156);
+    font-weight: bold;
+}
+.lunbo .ul3 .tag2{
+	top:38.8%;
+}
+.lunbo .ul3 .tag3{
+	top:49.8%;
+}
+.lunbo .ul3 .tag4{
+	top:60.8%;
+}
+.lunbo .ul3 .tag5{
+	top:71.8%;
+}
+
+.lunbo .ul3 .con{
+	max-width: 3rem;
+	overflow: hidden;
+	left:3.8rem;
+	top:27.8%;
+	color: rgb(255, 255, 255);
+    font-size: .46rem;
+}
+.lunbo .ul3 .con2{
+	top:38.8%;
+}
+.lunbo .ul3 .con3{
+	top:49.8%;
+}
+.lunbo .ul3 .con4{
+	top:60.8%;
+}
+.lunbo .ul3 .con5{
+	top:71.8%;
+	left:4.2rem;
+}
+
+
+.lunbo .ul4 .timg{
+	top:28%;
+	width: 74.5%;
+	left:12.75%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.lunbo .ul4 .timg div{
+	width: 2.3rem;
+	height: 2.3rem;
+	border:.04rem solid rgb(18, 166, 156);
+}
+
+.lunbo .ul4 .bimg{
+	top:55.8%;
+}
+
+
+.lunbo .ul4 .school{
+	width: 2.3rem;
+	text-align: center;
+	color: rgb(18, 166, 156);
+    font-size: .46rem;
+    font-weight: bold;
+}
+.lunbo .ul4 .sch1{
+	top:46.2%;
+	left:12.75%;
+}
+.lunbo .ul4 .sch2{
+	top:46.2%;
+	right:12.75%;
+}
+.lunbo .ul4 .sch3{
+	top:74.2%;
+	left:12.75%;
+}
+.lunbo .ul4 .sch4{
+	top:74.2%;
+	right:12.75%;
+}
+
+.lunbo .ul5 .bcir{
+	display: flex;
+	justify-content: space-between;
+	width: 82%;
+	left:9%;
+	top:28%;
+}
+.lunbo .ul5 .bcir div{
+	width: 2.4rem;
+	height: 2.4rem;
+}
+.lunbo .ul5 .bcirb{
+	top:50%;
+}
+.lunbo .ul5 .lcir{
+	width: 2.6rem;
+	height: 2.6rem;
+	top:38%;
+	left:2.5rem;
+}
+
+
+.lunbo .ul5 .txt{
+	color: rgb(255, 255, 255);
+    font-size: .32rem;
+    text-align: center;
+}
+.lunbo .ul5 .txt div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 2.4rem;
+	height: 2.4rem;
+
+}
+.lunbo .ul5 .txt span{
+	display: inline-block;
+	width: 1.61rem;
+}
+.lunbo .ul5 .bcirb{
+	top:50%;
+}
