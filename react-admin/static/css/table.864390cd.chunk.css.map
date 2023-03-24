@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/table.864390cd.chunk.css","mappings":"AAAA,WACI,iBAAkB,CAElB,UAAW,CADX,OAAQ,CAER,UAAW","sources":["style/view-style/table.scss"],"sourcesContent":[".toc-affix {\r\n    position: absolute;\r\n    top: 8px;\r\n    right: 20px;\r\n    z-index: 99;\r\n}\r\n"],"names":[],"sourceRoot":""}
